@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Resume Optimizer AI — Lakshmimeghana Uppalapati</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',sans-serif;background:#0d1117;color:#e6edf3;line-height:1.7}
+  header{background:linear-gradient(135deg,#161b22,#21262d);padding:60px 20px;text-align:center;border-bottom:1px solid #30363d}
+  header h1{font-size:2.4rem;font-weight:700;color:#58a6ff;margin-bottom:10px}
+  header p{font-size:1.1rem;color:#8b949e;max-width:700px;margin:0 auto 20px}
+  .badges{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:16px}
+  .badge{padding:6px 16px;border-radius:20px;font-size:13px;font-weight:600}
+  .badge-blue{background:#1f6feb33;color:#58a6ff;border:1px solid #1f6feb}
+  .badge-green{background:#23863633;color:#3fb950;border:1px solid #238636}
+  .badge-purple{background:#8957e533;color:#bc8cff;border:1px solid #8957e5}
+  .badge-orange{background:#fb8f4433;color:#fb8f44;border:1px solid #fb8f44}
+  .container{max-width:1000px;margin:0 auto;padding:40px 20px}
+  .section{margin-bottom:50px}
+  .section h2{font-size:1.5rem;color:#58a6ff;border-bottom:1px solid #30363d;padding-bottom:10px;margin-bottom:24px}
+  .metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
+  .metric-card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:24px;text-align:center}
+  .metric-card .value{font-size:2rem;font-weight:700;color:#3fb950;margin-bottom:6px}
+  .metric-card .label{font-size:13px;color:#8b949e}
+  .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+  .feature-card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:20px}
+  .feature-card h3{font-size:14px;font-weight:600;color:#58a6ff;margin-bottom:8px}
+  .feature-card p{font-size:13px;color:#8b949e;line-height:1.6}
+  .arch-box{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:30px;font-family:'Courier New',monospace;font-size:13px;color:#8b949e;overflow-x:auto;white-space:pre}
+  .tech-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+  .tech-item{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:16px;text-align:center;text-decoration:none;display:block;transition:border-color 0.2s}
+  .tech-item:hover{border-color:#58a6ff}
+  .tech-name{font-size:14px;font-weight:600;color:#e6edf3;margin-bottom:4px}
+  .tech-desc{font-size:12px;color:#8b949e}
+  .api-table{width:100%;border-collapse:collapse}
+  .api-table th{background:#21262d;color:#8b949e;font-size:13px;padding:10px 16px;text-align:left;border-bottom:1px solid #30363d}
+  .api-table td{padding:10px 16px;font-size:13px;border-bottom:1px solid #21262d;color:#e6edf3}
+  .api-table tr:hover td{background:#21262d}
+  .method{padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700}
+  .post{background:#23863633;color:#3fb950}
+  .get{background:#1f6feb33;color:#58a6ff}
+  .put{background:#fb8f4433;color:#fb8f44}
+  .file-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+  .file-link{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:16px;text-decoration:none;display:flex;align-items:center;gap:12px;transition:border-color 0.2s}
+  .file-link:hover{border-color:#58a6ff}
+  .file-name{font-size:14px;font-weight:600;color:#58a6ff}
+  .file-desc{font-size:12px;color:#8b949e}
+  .links{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:24px}
+  .btn{padding:10px 24px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;display:inline-block;transition:opacity 0.2s}
+  .btn-primary{background:#238636;color:#fff;border:1px solid #2ea043}
+  .btn-secondary{background:#21262d;color:#58a6ff;border:1px solid #30363d}
+  .btn:hover{opacity:0.8}
+  footer{text-align:center;padding:40px 20px;border-top:1px solid #30363d;color:#8b949e;font-size:13px}
+  footer a{color:#58a6ff;text-decoration:none}
+  footer a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Resume Optimizer AI</h1>
+  <p>AI-powered Chrome Extension achieving 85-92% ATS match rates with 8-20 strategic improvements per job application. Built with Gemini 2.0, GPT-4, and Vertex AI.</p>
+  <div class="badges">
+    <span class="badge badge-green">85-92% ATS Match Rate</span>
+    <span class="badge badge-blue">Google Gemini 2.0</span>
+    <span class="badge badge-purple">GPT-4</span>
+    <span class="badge badge-orange">Vertex AI</span>
+    <span class="badge badge-blue">360+ Applications Tracked</span>
+  </div>
+  <div class="links">
+    <a href="https://github.com/meghana0824/Resume-optimizer-AI" target="_blank" class="btn btn-primary">View on GitHub</a>
+    <a href="https://github.com/meghana0824/Resume-optimizer-AI/blob/main/backend/optimization-server/server.js" target="_blank" class="btn btn-secondary">View Backend Code</a>
+    <a href="https://github.com/meghana0824/Resume-optimizer-AI/blob/main/backend/tracking-server/db/schema.sql" target="_blank" class="btn btn-secondary">View Database Schema</a>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <h2>Key Results</h2>
+    <div class="metrics">
+      <div class="metric-card"><div class="value">92%</div><div class="label">ATS Match Rate</div></div>
+      <div class="metric-card"><div class="value">8-20</div><div class="label">Improvements/App</div></div>
+      <div class="metric-card"><div class="value">360+</div><div class="label">Applications Tracked</div></div>
+      <div class="metric-card"><div class="value">3</div><div class="label">AI Models Integrated</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Features</h2>
+    <div class="features">
+      <div class="feature-card"><h3>AI Resume Optimization</h3><p>Analyzes resume against any job description using Gemini 2.0 and GPT-4, suggesting 8-20 targeted improvements per application with ATS score feedback.</p></div>
+      <div class="feature-card"><h3>Application Tracker</h3><p>Full-text PostgreSQL search across 360+ job applications with real-time status updates and automated Google Drive document management.</p></div>
+      <div class="feature-card"><h3>Recruiter Automation</h3><p>AI-powered LinkedIn search + Gmail API for personalized outreach email generation with automated draft creation and 4-score candidate analysis.</p></div>
+      <div class="feature-card"><h3>Dual-Server Architecture</h3><p>Separate Express.js servers for optimization and tracking, allowing independent scaling and zero-downtime deployments for each service.</p></div>
+      <div class="feature-card"><h3>Google Workspace Integration</h3><p>Automated sync with Google Drive, Docs, and Gmail APIs for seamless document management across 360+ applications.</p></div>
+      <div class="feature-card"><h3>Vertex AI Scoring</h3><p>Google Cloud Vertex AI powers advanced candidate scoring with a 4-dimension fit score across skills, experience, education, and culture.</p></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>System Architecture</h2>
+    <div class="arch-box">Chrome Extension (React Frontend)
+Resume upload  |  JD input  |  ATS Score display
+        |
+        | REST API calls
+        |
+   +------------------------+      +------------------+
+   | Optimization Server    |----->|  Gemini 2.0 API  |
+   |  Express.js Port 3001  |----->|  GPT-4 API       |
+   +------------------------+----->|  Vertex AI       |
+        |                          +------------------+
+   +------------------------+      +------------------+
+   | Tracking Server        |----->|  PostgreSQL DB   |
+   |  Express.js Port 3002  |----->|  Google Drive    |
+   +------------------------+----->|  Gmail API       |
+                                   +------------------+</div>
+  </div>
+
+  <div class="section">
+    <h2>API Endpoints</h2>
+    <table class="api-table">
+      <tr><th>Method</th><th>Endpoint</th><th>Description</th></tr>
+      <tr><td><span class="method post">POST</span></td><td>/api/optimize</td><td>Optimize resume against job description</td></tr>
+      <tr><td><span class="method post">POST</span></td><td>/api/analyze</td><td>Get ATS score and keyword analysis</td></tr>
+      <tr><td><span class="method post">POST</span></td><td>/api/outreach</td><td>Generate personalized recruiter email</td></tr>
+      <tr><td><span class="method get">GET</span></td><td>/api/applications</td><td>List all tracked applications</td></tr>
+      <tr><td><span class="method post">POST</span></td><td>/api/applications</td><td>Add new job application</td></tr>
+      <tr><td><span class="method put">PUT</span></td><td>/api/applications/:id</td><td>Update application status</td></tr>
+      <tr><td><span class="method get">GET</span></td><td>/api/documents</td><td>List Google Drive documents</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Source Code Files</h2>
+    <div class="file-links">
+      <a href="https://github.com/meghana0824/Resume-optimizer-AI/blob/main/backend/optimization-server/server.js" target="_blank" class="file-link">
+        <div style="font-size:20px">⚙️</div><div><div class="file-name">server.js</div><div class="file-desc">Optimization server entry point</div></div>
+      </a>
+      <a href="https://github.com/meghana0824/Resume-optimizer-AI/blob/main/backend/tracking-server/db/schema.sql" target="_blank" class="file-link">
+        <div style="font-size:20px">🗄️</div><div><div class="file-name">schema.sql</div><div class="file-desc">PostgreSQL database schema</div></div>
+      </a>
+      <a href="https://github.com/meghana0824/Resume-optimizer-AI/blob/main/package.json" target="_blank" class="file-link">
+        <div style="font-size:20px">📦</div><div><div class="file-name">package.json</div><div class="file-desc">Dependencies and scripts</div></div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Tech Stack</h2>
+    <div class="tech-grid">
+      <a href="https://ai.google.dev/" target="_blank" class="tech-item"><div class="tech-name">Gemini 2.0</div><div class="tech-desc">AI optimization</div></a>
+      <a href="https://openai.com/gpt-4" target="_blank" class="tech-item"><div class="tech-name">GPT-4</div><div class="tech-desc">Resume analysis</div></a>
+      <a href="https://cloud.google.com/vertex-ai" target="_blank" class="tech-item"><div class="tech-name">Vertex AI</div><div class="tech-desc">Candidate scoring</div></a>
+      <a href="https://reactjs.org" target="_blank" class="tech-item"><div class="tech-name">React</div><div class="tech-desc">Chrome extension UI</div></a>
+      <a href="https://expressjs.com" target="_blank" class="tech-item"><div class="tech-name">Express.js</div><div class="tech-desc">Backend servers</div></a>
+      <a href="https://www.postgresql.org" target="_blank" class="tech-item"><div class="tech-name">PostgreSQL</div><div class="tech-desc">Application tracking</div></a>
+      <a href="https://developers.google.com/drive" target="_blank" class="tech-item"><div class="tech-name">Drive API</div><div class="tech-desc">Document management</div></a>
+      <a href="https://developers.google.com/gmail/api" target="_blank" class="tech-item"><div class="tech-name">Gmail API</div><div class="tech-desc">Outreach automation</div></a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  Built by <a href="mailto:ulakshmi081234@gmail.com">Lakshmimeghana Uppalapati</a> &nbsp;|&nbsp;
+  <a href="https://github.com/meghana0824/Resume-optimizer-AI" target="_blank">GitHub Repo</a> &nbsp;|&nbsp;
+  <a href="https://linkedin.com/in/lakshmimeghana" target="_blank">LinkedIn</a>
+</footer>
+
+</body>
+</html>
